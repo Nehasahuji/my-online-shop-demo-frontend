@@ -1,0 +1,54 @@
+button {
+  display: inline-block;
+  padding: 15px 20px;
+
+  cursor: pointer;
+
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #99154E;
+  border: solid;
+  border-color: black;
+  border-width: 0.2rem;
+
+  height: 44px;
+}
+
+button:hover {
+  background-color: grey;
+}
+
+button:active {
+  background-color:#99154E;
+  box-shadow: 0 5px grey;
+  transform: translateY(4px);
+}
+
+
+
+.items {
+  height: 40%;
+  width: 20rem;
+  flex: inherit;
+  justify-content: center;
+}
+
+
+
+span {
+  text-decoration: solid;
+  text-emphasis: none;
+  color: black;
+  margin-right: 1rem;
+}
+
+select {
+  margin-left: -0.5rem;
+  background-color: white;
+  color: #99154E;
+}
+
+.img {
+  margin: 50%;
+}
