@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "start": "http-server-spa dist/My-online-shop-frontend index.html $PORT"
+    "start": "http-server-spa dist/Ecommerce-Web index.html $PORT"
   },
   "private": true,
   "dependencies": {
