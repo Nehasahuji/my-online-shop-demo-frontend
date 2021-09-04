@@ -3,11 +3,11 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-	"heroku-postbuild": "ng build --prod && npm install -g http-server-spa",
-    "start": "http-server-spa dist/My-online-shop-frontend index.html $PORT"
+	  "heroku-postbuild": "ng build --prod && npm install -g http-server-spa",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "start": "http-server-spa dist/Ecommerce-Web index.html $PORT"
   },
   "private": true,
   "dependencies": {
